@@ -27,14 +27,17 @@ color:white;
 }
 
 .hero{
-height:70vh;
+height:90vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-}
 
+background-image:url("https://images.unsplash.com/photo-1501706362039-c6b2a6b3c5c1");
+background-size:cover;
+background-position:center;
+}
 .hero h2{
 font-size:40px;
 margin-bottom:10px;
