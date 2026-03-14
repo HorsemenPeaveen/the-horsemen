@@ -3,14 +3,9 @@ body{
 margin:0;
 padding:0;
 
-background:#0a0a0a;
-background-image:url("https://images.unsplash.com/photo-1507149833265-60c372daea22");
-background-size:cover;
-background-position:center;
-background-attachment:fixed;
+font-family:Georgia,serif;
 
 color:#f0f0f0;
-font-family:Georgia,serif;
 
 display:flex;
 flex-direction:column;
@@ -19,7 +14,32 @@ text-align:center;
 
 min-height:100vh;
 
+background-image:url("https://images.unsplash.com/photo-1549880181-56a44cf4a9a5");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
 }
+
+
+/* Dark overlay so text stays readable */
+
+body::before{
+
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,0.65);
+
+z-index:-1;
+
+}
+
 
 /* Header */
 
@@ -46,6 +66,7 @@ line-height:1.6;
 
 }
 
+
 /* Navigation */
 
 nav{
@@ -69,7 +90,8 @@ color:white;
 
 }
 
-/* Intro section */
+
+/* Intro */
 
 .intro{
 
@@ -79,6 +101,7 @@ line-height:1.8;
 font-size:18px;
 
 }
+
 
 /* Footer */
 
