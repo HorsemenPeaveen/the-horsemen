@@ -1,10 +1,9 @@
-body{
+body {
 
 margin:0;
 padding:0;
 
-font-family:Georgia,serif;
-
+font-family:Georgia, serif;
 color:#f0f0f0;
 
 display:flex;
@@ -14,14 +13,13 @@ text-align:center;
 
 min-height:100vh;
 
-background-image:url("https://images.unsplash.com/photo-1549880181-56a44cf4a9a5");
+background-image:url("horse.jpg");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
 background-attachment:fixed;
 
 }
-
 
 /* Dark overlay so text stays readable */
 
