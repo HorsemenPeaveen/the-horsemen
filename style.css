@@ -1,10 +1,15 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #0b0b0b;
-    color: #e6e6e6;
-    font-family: Georgia, serif;
-}
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+    color: #e6e6e6;
+    font-family: Georgia, serif;
+
+    background-image: url("https://images.unsplash.com/photo-1553284965-83fd3e82fa5a");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}}
 
 header {
     text-align: center;
