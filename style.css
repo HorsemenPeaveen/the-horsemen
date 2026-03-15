@@ -123,3 +123,26 @@ font-size:14px;
 color:#888;
 
 }
+/* fade-in effect */
+
+.fade-in{
+
+opacity:0;
+transform:translateY(40px);
+
+animation:fadeUp 1.6s ease forwards;
+
+animation-delay:0.6s;
+
+}
+
+@keyframes fadeUp{
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
