@@ -1,4 +1,4 @@
-body{
+ body{
 
 margin:0;
 padding:0;
@@ -45,34 +45,43 @@ pointer-events:none;
 
 }
 
-/* header */
+/* HERO SECTION */
 
-header{
+.hero{
+
 padding-top:140px;
+padding-bottom:120px;
+
 }
 
 /* main title */
 
 h1{
+
 font-size:72px;
 letter-spacing:8px;
 font-weight:400;
 margin-bottom:10px;
+
 }
 
 /* tagline */
 
 .tagline{
+
 font-size:20px;
 font-style:italic;
 color:#d0d0d0;
 margin-bottom:40px;
+
 }
 
 /* navigation */
 
 nav{
+
 margin-top:30px;
+
 }
 
 nav a{
@@ -112,6 +121,71 @@ backdrop-filter: blur(6px);
 
 }
 
+/* philosophy quote */
+
+.philosophy{
+
+font-size:24px;
+font-style:italic;
+margin-bottom:10px;
+
+}
+
+/* quote author */
+
+.author{
+
+color:#d4af37;
+margin-bottom:30px;
+
+}
+
+/* story gateway */
+
+.story{
+
+max-width:720px;
+margin-top:120px;
+line-height:1.8;
+
+}
+
+.story h2{
+
+font-size:32px;
+letter-spacing:2px;
+margin-bottom:20px;
+
+}
+
+.story-intro{
+
+font-style:italic;
+color:#cccccc;
+font-size:20px;
+
+}
+
+.read-story{
+
+display:inline-block;
+margin-top:30px;
+
+color:#d4af37;
+text-decoration:none;
+font-size:18px;
+
+transition:all 0.3s ease;
+
+}
+
+.read-story:hover{
+
+color:white;
+letter-spacing:2px;
+
+}
+
 /* footer */
 
 footer{
@@ -123,6 +197,7 @@ font-size:14px;
 color:#888;
 
 }
+
 /* fade-in effect */
 
 .fade-in{
@@ -131,7 +206,6 @@ opacity:0;
 transform:translateY(40px);
 
 animation:fadeUp 1.6s ease forwards;
-
 animation-delay:0.6s;
 
 }
