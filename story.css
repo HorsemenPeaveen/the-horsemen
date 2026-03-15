@@ -98,3 +98,22 @@ font-size:20px;
 font-style:italic;
 
 }
+.back-link{
+
+display:inline-block;
+margin-bottom:60px;
+
+text-decoration:none;
+font-size:16px;
+
+color:#8a6a35;
+
+transition:all 0.3s ease;
+
+}
+
+.back-link:hover{
+
+color:#000;
+
+}
