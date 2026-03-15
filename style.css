@@ -3,7 +3,7 @@ body {
 margin:0;
 padding:0;
 
-font-family:Georgia, serif;
+font-family: Georgia, serif;
 color:#f5f5f5;
 
 display:flex;
@@ -13,13 +13,22 @@ text-align:center;
 
 min-height:100vh;
 
-background:url("horse.jpg") center/cover no-repeat fixed;
+/* Background Horse Image */
+background-image: url("horse.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
 
 }
+
+/* Header */
 
 header{
 padding-top:120px;
 }
+
+/* Title */
 
 h1{
 font-size:60px;
@@ -27,12 +36,16 @@ letter-spacing:4px;
 margin-bottom:20px;
 }
 
+/* Tagline */
+
 .tagline{
 font-size:20px;
 font-style:italic;
 color:#cccccc;
 line-height:1.6;
 }
+
+/* Navigation */
 
 nav{
 margin-top:40px;
@@ -49,12 +62,20 @@ nav a:hover{
 color:white;
 }
 
+/* Introduction Section */
+
 .intro{
 max-width:700px;
 margin-top:80px;
 line-height:1.8;
 font-size:18px;
+
+background: rgba(0,0,0,0.55);
+padding:40px;
+border-radius:8px;
 }
+
+/* Footer */
 
 footer{
 margin-top:120px;
