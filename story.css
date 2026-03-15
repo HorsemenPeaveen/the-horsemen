@@ -52,10 +52,24 @@ margin-bottom:60px;
 font-size:22px;
 font-style:italic;
 
-margin-bottom:60px;
+margin-bottom:70px;
 
 }
 
+.opening::after{
+
+content:"";
+
+display:block;
+
+width:80px;
+height:2px;
+
+background:#d4af37;
+
+margin-top:30px;
+
+}
 .story-text p{
 
 margin-bottom:32px;
