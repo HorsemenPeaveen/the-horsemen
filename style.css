@@ -13,12 +13,16 @@ text-align:center;
 
 min-height:100vh;
 
-/* Background Horse Image */
-background-image: url("horse.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
+/* Background Image */
+
+background-image:
+linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+url("horse.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
 
 }
 
@@ -62,7 +66,7 @@ nav a:hover{
 color:white;
 }
 
-/* Introduction Section */
+/* Introduction */
 
 .intro{
 max-width:700px;
