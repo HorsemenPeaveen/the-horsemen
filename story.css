@@ -5,7 +5,12 @@ padding:0;
 
 font-family: Georgia, serif;
 
-background:#f6f3ee;
+background:linear-gradient(
+180deg,
+#f7f3ea 0%,
+#f1ebe0 40%,
+#f7f3ea 100%
+);
 color:#2c2c2c;
 
 display:flex;
