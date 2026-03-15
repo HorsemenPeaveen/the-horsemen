@@ -21,12 +21,16 @@ line-height:1.9;
 
 }
 
+/* container */
+
 .story-container{
 
 max-width:760px;
 padding:120px 30px;
 
 }
+
+/* title */
 
 h1{
 
@@ -35,11 +39,30 @@ font-weight:400;
 
 letter-spacing:1px;
 
-margin-bottom:70px;
+margin-bottom:30px;
 
 line-height:1.3;
 
 }
+
+/* elegant divider under title */
+
+h1::after{
+
+content:"";
+
+display:block;
+
+width:120px;
+height:2px;
+
+background:#c9a35a;
+
+margin-top:30px;
+
+}
+
+/* opening paragraph */
 
 .opening{
 
@@ -49,6 +72,8 @@ font-style:italic;
 margin-bottom:70px;
 
 }
+
+/* gold line under opening */
 
 .opening::after{
 
@@ -65,15 +90,38 @@ margin-top:30px;
 
 }
 
+/* main paragraphs */
+
 .story-text p{
 
-margin-bottom:32px;
+margin-bottom:36px;
 
-font-size:19px;
+font-size:20px;
 
-max-width:680px;
+max-width:700px;
+
+letter-spacing:0.2px;
 
 }
+
+/* book-style drop cap */
+
+.story-text p:first-of-type::first-letter{
+
+font-size:72px;
+float:left;
+
+line-height:0.9;
+
+padding-right:10px;
+
+font-weight:500;
+
+color:#7a5c2e;
+
+}
+
+/* centered philosophy lines */
 
 .center{
 
@@ -89,6 +137,8 @@ color:#7a5c2e;
 
 }
 
+/* ending paragraph */
+
 .ending{
 
 margin-top:60px;
@@ -98,6 +148,9 @@ font-size:20px;
 font-style:italic;
 
 }
+
+/* back link */
+
 .back-link{
 
 display:inline-block;
